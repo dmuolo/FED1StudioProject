@@ -1,0 +1,42 @@
+﻿body {
+}
+nav a {
+    font-weight: bold;
+    color: darkblue;
+}
+nav li:hover{
+    background-color: blue;
+}
+
+nav a:hover, nav a:active, nav a:focus {
+    text-decoration: none;
+}
+
+nav ul {
+    background-color: lightcyan;
+    padding: 0;
+    border-top: 3px solid darkgrey;
+    border-bottom: 3px solid darkgrey;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: .3em 1em;
+    display: block;
+}
+
+h2 {
+    font-weight: 400;
+    color: aqua;
+    border-color: aliceblue;
+}
+
+#darkblue {
+    color: aquamarine;
+    border-color: azure;
+    background-color: bisque;
+}
