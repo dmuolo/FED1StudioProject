@@ -5,7 +5,7 @@ nav a {
     color: darkblue;
 }
 nav li:hover{
-    background-color: blue;
+    background-color: lightgrey;
 }
 
 nav a:hover, nav a:active, nav a:focus {
@@ -39,4 +39,8 @@ h2 {
     color: aquamarine;
     border-color: azure;
     background-color: bisque;
+}
+section h3 {
+    font: 400;
+    color: blueviolet;
 }
