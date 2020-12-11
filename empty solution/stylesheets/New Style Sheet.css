@@ -1,11 +1,13 @@
 ﻿body {
 }
+
+/*#region Nav*/
 nav a {
     font-weight: bold;
     color: darkblue;
 }
-nav li:hover{
-    background-color: lightgrey;
+nav li:hover {
+    background-color: rgba(129, 104, 90, 0.27);
 }
 
 nav a:hover, nav a:active, nav a:focus {
@@ -13,10 +15,10 @@ nav a:hover, nav a:active, nav a:focus {
 }
 
 nav ul {
-    background-color: lightcyan;
+    background-color: rgba(143, 101, 77, 0.6);
     padding: 0;
-    border-top: 3px solid darkgrey;
-    border-bottom: 3px solid darkgrey;
+    border-top: .2em solid darkgrey;
+    border-bottom: .2em solid darkgrey;
 }
 
 nav ul li {
@@ -29,18 +31,25 @@ nav ul li a {
     display: block;
 }
 
-h2 {
-    font-weight: 400;
-    color: aqua;
-    border-color: aliceblue;
+/*#endregion*/
+
+/*#region footer*/
+footer {
+    background-color: rgba(143, 101, 77, 0.6);
+    padding: .6em;
+    border: solid;
+    border-color: black;
+    border-width: .2em;
 }
 
-#darkblue {
-    color: aquamarine;
-    border-color: azure;
-    background-color: bisque;
+
+/*#endregion footer*/
+
+#choose {
+    font: body;
+    font-weight: 400;
 }
-section h3 {
-    font: 400;
-    color: blueviolet;
+
+.nav2 {
+    padding: .1em;
 }
