@@ -2,25 +2,42 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Company Name</title>
-    <link href="stylesheets/New Style Sheet.css" rel="stylesheet" />
+    <title>Six String Society</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS below -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="stylesheets/custom.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <h3>Six String Society</h3>
-        <h4>Learn to Pluck or Learn to Shred</h4>
-        <!-- Various logos -->
+    <header class="mainH">
+        <a href="/images/MyLn7Law.png">
+            <img id="img" src="/images/MyLn7Law.png" alt="Company Logo" title="Company Logo" width="350" height="220" />
+        </a>
+
+        <div class="ABC">
+            <h2>Six String Society</h2>
+            <h4>Learn to Pluck or Learn to Shred</h4>
+        </div>
+        <div class="specHeader">
+            <a href="https://www.facebook.com/learnwithus" target="_blank">
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+            </a> <a href="https://twitter.com/weteachstuff" target="_blank">
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+            </a> <a href="https://linkedin.com/learnwithus" target="_blank">
+                <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+            </a>
+        </div>
     </header>
-    <nav>
+    <nav id="mainNav">
         <ul>
-            <li>
+            <li class="active">
                 <a href="/index.html">Home</a>
             </li>
             <li>
                 <a href="Classes.html">Classes</a>
             </li>
             <li>
-                <a href="Team.html">Team</a>
+                <a href="TeamLeadership.html">Team</a>
             </li>
             <li>
                 <a href="Contact.html">Contact</a>
@@ -28,30 +45,52 @@
         </ul>
     </nav>
     <section>
-        <article>
-            <h2>About Us</h2>
-            <p>
-                We are a diverse team of guitar instructors representing a wire array of genres. What do we have in common? Our love for the instrument and our boundary-pushing approach to teaching the instrument. From Muhammed Suicmez to Ana Vidovic or blues to pop, we have the best of the best and bring them right to you.
+        <img class="chooseImg" src="images/SSS.png" alt="company logo" title="Company Logo 2" />
+        </a>
+        <br />
+        <br />
+        <h2 class="about">About Us</h2>
+        <p class="marginP">
+            We are a diverse team of guitar instructors representing a wide array of musical genres. We only have the best of the best, and we bring them <em>right to you</em>. <br /> <br />
+            Just after the turn of the century, Ben Brown realized that music lessons shouldn't have to be all the way across town, so he started giving mobile music lessons. Once streaming technology began to improve, he took it one step further by bringing remote music lessons right to students across the world. Finally, he put together the "Avengers of Guitar" by recruiting the very best of the best across the globe to bring them <em>right into your home.</em>
+        </p>
+    </section>
+
+    <section>
+        <h1 id="choose" class="center">Why Choose Us</h1>
+        <article class="leftFloat">
+            <img id="leftImage" class="imageResize" src="images/instructors.jpg" />
+            <h3 class="mainStyle">We Have the Best Instructors</h3>
+            <p class="mainText">
+                The pedigree simply doesn't get any pedigreer (is that even a word?). Our guitarist have chops, and they know how to cook up and serve them so that you can also have chops (yum). Ipsum dolor balalalala la bamba. Ipsum dolor balalala la bamba.
             </p>
         </article>
-        <section>
-            <h1 id="choose">Why Choose Us</h1>
-            <!-- TODO - Add Image -->
-            <h3>We Have the Best Instructors</h3>
-            <p>
-                The pedigree simply doesn't get any pedigreer (is that even a word?). Our guitarist have chops, and they know how to cook up and serve them so that you can also have chops (yum).
-            </p>
-            <h3>We Bring Them Right to You</h3>
-            <p>
-                You probably can't fly hundreds of miles for every lesson--well don't worry! We bring our qualified instructors right to you with technology. Why not start a garage band with John Mayer tomorrow?
-            </p>
-            <!-- TODO - Add Image -->
-        </section>
+
+        <article class="rightFloat">
+            <img id="rightImage" class="imageResize" src="images/virtual.jpg" />
+            <div>
+                <h3 class="mainStyle">We Bring Them Right to You</h3>
+                <p class="mainText">
+                   You probably can't fly hundreds of miles for every lesson--well don't worry! We bring our qualified instructors right to you with technology. Why not start a garage band with John Mayer tomorrow? Ipsum dolor balalalala la bamba. Ipsum dolor balalala la bamba.
+                </p>
+            </div>
+        </article>
     </section>
+
     <footer>
-        <h4>All Rights Reserved 2019</h4>
-        <!-- Add logos -->
+        All Rights Reserved 2019
+        <div class="footerSoc">
+            <a href="https://www.facebook.com/learnwithus" target="_blank">
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+            </a> <a href="https://twitter.com/weteachstuff" target="_blank">
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+            </a> <a href="https://linkedin.com/learnwithus" target="_blank">
+                <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+            </a>
+        </div>
     </footer>
-    <h4>Copyright &copy; 2020 Centriq Training. All Rights Reserved.</h4>
+    <h4 class="centered">Copyright &copy; 2020 Centriq Training. All Rights Reserved.</h4>
+    <!-- Bootstrap below -->
+    <script src="scripts/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -3,97 +3,376 @@
 <head>
     <meta charset="utf-8" />
     <title>Classes</title>
-    <link href="stylesheets/New Style Sheet.css" rel="stylesheet" />
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS below -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="stylesheets/custom.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <h3>Six String Society</h3>
-        <h4>Learn to Pluck or Learn to Shred</h4>
+    <header class="mainH">
+        <a href="/images/MyLn7Law.png">
+            <img id="img" src="/images/MyLn7Law.png" alt="Company Logo" title="Company Logo" width="350" height="220" />
+        </a>
+
+        <div class="ABC">
+            <h2>Six String Society</h2>
+            <h4>Learn to Pluck or Learn to Shred</h4>
+        </div>
+        <div class="specHeader">
+            <a href="https://www.facebook.com/learnwithus" target="_blank">
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+            </a> <a href="https://twitter.com/weteachstuff" target="_blank">
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+            </a> <a href="https://linkedin.com/learnwithus" target="_blank">
+                <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+            </a>
+        </div>
     </header>
-    <nav>
+    <nav id="mainNav">
         <ul>
             <li>
                 <a href="/index.html">Home</a>
             </li>
-            <li>
+            <li class="active">
                 <a href="Classes.html">Classes</a>
             </li>
             <li>
-                <a href="Team.html">Team</a>
+                <a href="TeamLeadership.html">Team</a>
             </li>
             <li>
                 <a href="Contact.html">Contact</a>
             </li>
         </ul>
     </nav>
+    <h1 class="centered big">Class Subjects</h1>
+    <section class="classList">
+        <ul>
+            <li>
+                <img class="classPic" src="images/Metal.jpg" />
+                <a href="#metal2">   Metal  </a>
+                <p>
+                    Learn the art of the shred
+                </p>
+            </li>
+            <li>
+                <img class="classPic" src="images/Classical.jpg" />
+                <a href="#classical2" class="classical">   Classical   </a>
+                <p>
+                    Learn to pluck like there's no tomorrow
+                </p>
+            </li>
+            <li>
+                <img class="classPic" src="images/Rock.jpg" />
+                <a href="#rock2" class="goLeft">  Rock    </a>
+                <p>
+                    A little rock n' roll never hurt no one
+                </p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <img class="classPic" src="images/Blues.png" />
+                <a href="#blues2" class="goLeft">   Blues  </a>
+                <p>
+                    Feeling blue? Pick up your six string
+                </p>
+            </li>
+            <li>
+                <img class="classPic" src="images/Jazz.jpg" />
+                <a href="#jazz2" class="goLeft">   Jazz   </a>
+                <p>
+                    Something a little more on the fly?
+                </p>
+            </li>
+            <li>
+                <img class="classPic" src="images/Pop.jpg" />
+                <a href="#pop2" class="goLeft">Pop</a>
+                <p>
+                    Licks that put snap and crackle in pop
+                </p>
+            </li>
+        </ul>
+    </section>
     <section>
-        <h1>Class Subjects</h1>
-        <section>
-            <!-- Note: Should this be a set of individual articles or an unordered list? How will nav work? -->
-            <article>
-                <h3>Death Metal</h3>
-                <p>
-                    Learn the art of the shred.
-                </p>
-            </article>
-            <article>
-                <h3>Classical Guitar</h3>
-                <p>
-                    Learn to pluck like there's no tomorrow'
-                </p>
-            </article>
-            <article>
-                <h3>Rock</h3>
-                <p>
-                    A little rock n' roll never hurt no one.
-                </p>
-            </article>
-            <article>
-                <h3>Blues</h3>
-                <p>
-                    Feeling blue? Pick up your six string.
-                </p>
-            </article>
-            <article>
-                <h3>Jazz</h3>
-                <p>
-                    Maybe you're looking for something a little more on the fly?
-                </p>
-            </article>
-            <article>
-                <h3>Pop</h3>
-                <p>
-                    Licks and rhythms that put snap and crackle in pop.
-                </p>
-            </article>
-        </section>
-        <h2>[Subject] - Class List</h2>
-        <!--<ol>
-            Note: Here, there will be a table that shows the # of the class, the class name, the class instructor, and the user name of the instructor on Twitter. Currently, I just have a placeholder ordered list that shows all of the class offerings.
-            <li>
-                Class 1 Instructor
-            </li>
-            <li>
-                Class 2 Instructor
-            </li>
-            <li>
-                Class 3 Instructor
-            </li>
-            <li>
-                Class 4 Instructor
-            </li>
-            <li>
-                Class 5 Instructor
-            </li>
-            <li>
-                Class 6 Instructor
-            </li>
-        </ol>-->
+        <br />
+        <h2 class="centered">Class List</h2>
+        <br />
+        <div>
+            <h4 id="metal2" class="centered">Metal</h4>
+            <table>
+                <thead colspan="4">
+                    <tr>
+                        <th># (Level)</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>User Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 - Beginner (M,T 7-9 PM)</td>
+                        <td>Muhammed</td>
+                        <td>Suicmez</td>
+                        <td>
+                            <a>@msuicmez</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2 - Intermediate (W,Th 7-9 PM)</td>
+                        <td>Muhammed</td>
+                        <td>Suicmez</td>
+                        <td>
+                            <a>@msuicmez</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3 - Advanced (F, Sa 7-9 PM)</td>
+                        <td>Muhammed</td>
+                        <td>Suicmez</td>
+                        <td>
+                            <a>@msuicmez</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h4 id="classical2" class="centered">Classical</h4>
+            <table>
+                <thead colspan="4">
+                    <tr>
+                        <th># (Level)</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>User Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 - Beginner (M,T 7-9 PM)</td>
+                        <td>Ana</td>
+                        <td>Vidovic</td>
+                        <td>
+                            <a>@avidovic</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2 - Intermediate (W,Th 7-9 PM)</td>
+                        <td>Ana</td>
+                        <td>Vidovic</td>
+                        <td>
+                            <a>@avidovic</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3 - Advanced (F, Sa 7-9 PM)</td>
+                        <td>Ana</td>
+                        <td>Vidovic</td>
+                        <td>
+                            <a>@avidovic</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h4 id="rock2" class="centered">Rock</h4>
+            <table>
+                <thead colspan="4">
+                    <tr>
+                        <th># (Level)</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>User Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 - Beginner (M,T 7-9 PM)</td>
+                        <td>Mark</td>
+                        <td>Tremonti</td>
+                        <td>
+                            <a>@mmont</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2 - Intermediate (W,Th 7-9 PM)</td>
+                        <td>Mark</td>
+                        <td>Tremonti</td>
+                        <td>
+                            <a>@mmont</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3 - Advanced (F, Sa 7-9 PM)</td>
+                        <td>Mark</td>
+                        <td>Tremonti</td>
+                        <td>
+                            <a>@mmont</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h4 id="blues2" class="centered">Blues</h4>
+            <table>
+                <thead colspan="4">
+                    <tr>
+                        <th># (Level)</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>User Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 - Beginner (M,T 7-9 PM)</td>
+                        <td>Stevie Ray</td>
+                        <td>Vaughan</td>
+                        <td>
+                            <a>@stevieray</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2 - Intermediate (W,Th 7-9 PM)</td>
+                        <td>Stevie Ray</td>
+                        <td>Vaughan</td>
+                        <td>
+                            <a>@stevieray</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3 - Advanced (F, Sa 7-9 PM)</td>
+                        <td>Stevie Ray</td>
+                        <td>Vaughan</td>
+                        <td>
+                            <a>@stevieray</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h4 id="jazz2" class="centered">Jazz</h4>
+            <table>
+                <thead colspan="4">
+                    <tr>
+                        <th># (Level)</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>User Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 - Beginner (M,T 7-9 PM)</td>
+                        <td>Pat</td>
+                        <td>Metheny</td>
+                        <td>
+                            <a>@patmat</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2 - Intermediate (W,Th 7-9 PM)</td>
+                        <td>Pat</td>
+                        <td>Metheny</td>
+                        <td>
+                            <a>@patmat</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3 - Advanced (F, Sa 7-9 PM)</td>
+                        <td>Pat</td>
+                        <td>Metheny</td>
+                        <td>
+                            <a>@patmat</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h4 id="pop2" class="centered">Pop</h4>
+            <table>
+                <thead colspan="4">
+                    <tr>
+                        <th># (Level)</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>User Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 - Beginner (M,T 7-9 PM)</td>
+                        <td>John</td>
+                        <td>Mayer</td>
+                        <td>
+                            <a>@therealjm</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2 - Intermediate (W,Th 7-9 PM)</td>
+                        <td>John</td>
+                        <td>Mayer</td>
+                        <td>
+                            <a>@therealjm</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3 - Advanced (F, Sa 7-9 PM)</td>
+                        <td>John</td>
+                        <td>Mayer</td>
+                        <td>
+                            <a>@therealjm</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
     </section>
     <footer>
-        <h4>All Rights Reserved 2019</h4>
-        <!-- Add logos -->
+        All Rights Reserved 2019
+        <div class="footerSoc">
+            <a href="https://www.facebook.com/learnwithus" target="_blank">
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+            </a> <a href="https://twitter.com/weteachstuff" target="_blank">
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+            </a> <a href="https://linkedin.com/learnwithus" target="_blank">
+                <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+            </a>
+        </div>
     </footer>
-    <h4>Copyright &copy; 2020 Centriq Training. All Rights Reserved.</h4>
+    <h4 class="centered">Copyright &copy; 2020 Centriq Training. All Rights Reserved.</h4>
+
+    <!-- Side Nav -->
+    <div id="side-nav-btn" class="button" onclick="openSideNav()">
+        <span class="vertical-text">CLASS LIST</span>
+    </div>
+    <!-- ^ This is the placeholder button container that, at the user's click, will open into a clickable menu -->
+    <div class="classesnav" id="classes-nav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeSideNav()">
+            &times;
+        </a>
+        <a href="#metal2">Metal</a>
+        <a href="#classical2">Classical</a>
+        <a href="#rock2">Rock</a>
+        <a href="#blues2">Blues</a>
+        <a href="#jazz2">Jazz</a>
+        <a href="#pop2">Pop</a>
+    </div>
+    <!-- ^ This is the menu that is revealed upon the user's click -->
+    <!-- End Side Nav -->
+    <!-- Bootstrap below -->
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript file -->
+    <script src="scripts/custom.js"></script>
 </body>
 </html>

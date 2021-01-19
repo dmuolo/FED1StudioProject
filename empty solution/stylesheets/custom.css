@@ -1,0 +1,584 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+
+
+/*#region General*/
+body {
+    font-size: large;
+}
+
+.centered {
+    text-align: center;
+}
+
+section .centered {
+    font-size: xxx-large;
+}
+
+body {
+    background: url(/images/pexels-markus-spiske-92080.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+}
+/*#endregion General*/
+
+/*#region Nav*/
+#mainNav a {
+    font-weight: bold;
+    color: darkblue;
+}
+
+#mainNav li:hover {
+    background-color: rgba(129, 104, 90, 0.27);
+}
+
+#mainNav a:hover, nav a:active, nav a:focus {
+    text-decoration: none;
+}
+
+#mainNav ul {
+    background-color: #c3bcb5;
+    padding: 0;
+    border-top: .2em solid black;
+    border-bottom: .2em solid black;
+}
+
+    #mainNav ul li {
+        display: inline-block;
+        list-style: none;
+    }
+
+        #mainNav ul li a {
+            padding: .3em 2.5em;
+            display: block;
+            text-decoration: none;
+            font-size: x-large;
+        }
+
+        #mainNav ul li.active {
+            background-color: rgba(110, 101, 78, .5);
+        }
+
+/*#endregion*/
+
+/*#region Header*/
+
+header {
+    background: url(../images/banner.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#img {
+    float: left;
+    margin: 0px 8px 4px 0px;
+    padding: 0;
+    border: none;
+    height: 36%;
+    width: 31%;
+    filter: brightness(2.0);
+    filter: contrast(500%);
+    filter: grayscale(30%);
+    filter: sepia(80%);
+}
+
+header {
+    font-family: 'Corben', cursive;
+    font-size: medium;
+}
+
+.fa {
+    color: antiquewhite !important;
+}
+
+.mainH {
+    border: solid;
+    border-width: medium;
+    border-color: black;
+    float: left;
+}
+
+header .specHeader {
+    position: absolute;
+    padding: 1em;
+    right: 0em;
+    top: 0em;
+}
+
+.mainH {
+    position: relative;
+}
+
+.ABC {
+    position: relative;
+    left: 3em;
+    font-size: 1.2em;
+    color: antiquewhite;
+}
+
+.ABC h2 {
+    margin-top: 4em;
+}
+/*#endregion header*/
+
+/*#region Footer*/
+footer {
+    background-color: #c3bcb5;
+    padding: 2.5em;
+    border: solid;
+    border-color: black;
+    border-width: .2em;
+    font-weight: 500;
+    font-size: medium;
+}
+
+    footer .footerSoc {
+        float: right;
+        width: 20%;
+        padding: -.5em;
+        display: block;
+        clear: both;
+        text-align: right;
+    }
+
+    h4.centered {
+        padding: 1em 0em;
+        font-weight: 800;
+    }
+
+/*#endregion footer*/
+
+/*#region Main Page*/
+
+.about {
+    font-size: 1.7em;
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 12em;
+}
+
+#choose {
+    font: bolder;
+    font-weight: 800 !important;
+    font-size: 2.6em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 12em;
+    display: inline-block;
+}
+
+.chooseImg {
+    width: 37%;
+    height: auto;
+    float: left;
+    margin: 0px 10px 30px;
+}
+
+.marginP {
+    margin: 30px 10px 50px 0px;
+    color: antiquewhite;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+h3.mainStyle {
+    font-style: italic;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+.mainText {
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+.fa {
+    margin-left: .5em;
+}
+
+.imageResize {
+    height: auto;
+}
+
+#leftImage {
+    float: left;
+    max-width: 45%;
+}
+
+#rightImage {
+    float: right;
+    width: 58%;
+}
+
+div div p {
+    padding: 1em;
+}
+
+.leftFloat {
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    border: solid transparent;
+}
+
+.rightFloat {
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    border: solid transparent;
+}
+
+.leftFloat h3, p {
+    padding: 2em;
+}
+
+.rightFloat h3, p {
+    padding: 1em;
+}
+
+.leftFloat img {
+    padding: 3em;
+}
+
+.rightFloat img {
+    padding: 6em;
+}
+
+article.rightFloat h3 {
+    margin-top: 2.8em;
+}
+
+article.rightFloat p {
+    margin-left: 1.2em;
+}
+
+/*#endregion Main Page*/
+
+/*#region Class page*/
+
+.classPic {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.classList ul {
+    text-align: center;
+}
+
+    .classList ul li {
+        display: inline-block;
+        text-align: center;
+        padding: 1em 1em;
+        position: relative;
+    }
+
+        .classList ul li:hover {
+            background-color: antiquewhite;
+            border: solid black;
+        }
+
+        .classList li a {
+            text-decoration: none;
+            font-size: 1.5em;
+            position: absolute;
+            right: 3.2em;
+            display: block;
+            width: 28%;
+        }
+
+        .classList ul li p {
+            margin-top: 1em;
+        }
+
+        section h2.centered h4.centered {
+            margin-top: 2em;
+        }
+
+        section.classList ul li a {
+            color: black;
+            font-size: 2em;
+        }
+
+        section.classList ul li p {
+            margin-top: 2em;
+        }
+
+        .classical {
+            margin-right: 1em;
+        }
+
+        .goLeft {
+            margin-right: .4em;
+        }
+
+.big {
+    font-size: 3em;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 1.5em;
+}
+
+/*#region Table*/
+table, tr, td, th {
+    border: .1em solid black;
+    border-collapse: collapse; /*avoids duplicate adjacent borders inside table. note: reset already sets this for us.*/
+}
+
+table {
+    margin: auto; /*note, text-align: center would just center content IN CELLS*/
+    margin-bottom: 5em;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+    background-color: #c3bcb5;
+}
+
+td, th {
+    padding: 1em;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ded9d3; /*apply alternating background to each row*/
+}
+
+tbody tr:nth-child(even) {
+    background-color: #c3bcb5; /*apply alternating background to each row*/
+}
+/*#endregion*/
+
+/*#region Classes Side Nav*/
+
+.classesnav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .95);
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: .5s;
+}
+
+/*The above code pertains to the menu that opens upon the user's click.
+    The height of this menu will cover the height of the viewport.
+    The width: 0 ensures that the menu is not visible prior to the user's click.
+    The position: fixed makes it so that it is fixed relative to the viewport. This means that the object will stay fixed even if the user scrolls. From this point, top, bottom, left, right, etc. are used to position the item in its fixed position.
+    The top and left values set to 0 ensure the menu will be fixed to the far left side of the screen and 0px/% from the top of the viewport.
+    The z-index ensures it will be set above the rest of the content and visible to the user.
+    The overflow-x: hidden PV pair makes it so that the x-axis is "hidden" from the user. They cannot scroll left and right to see the clipped portion of the container. Otherwise, the menu  options that result from the user's click will be visibily floating before the user ever clicks the button.
+    The padding: top PV pair adds some padding to the top of the menu.
+    The transition: .5s adds a half second transition "animation" when the menu is initialized by the user's click.
+*/
+
+.classesnav a {
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #717171;
+    display: block;
+    transition: .25s;
+}
+
+/* The padding adds 8px of padding to each anchor element (each clickable option in the menu) on the top, right, and bottom. 30px of padding is added to the left side to the make the menu more readable from the far left "wall" of the viewport.
+    Text-decoration none removes the underlines.
+
+*/
+
+.classesnav a:hover {
+    color: #f1f1f1;
+    border-left: solid 3px white;
+}
+
+div a.close-btn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 60px !important;
+    border: none !important;
+}
+
+/*The position absolute PV pair positions this x "close button" relative to the nearest positioned ancestor, which in this case, is its surrounding div, which is the overall menu (positioned position: relative)
+  Top: 0 sets the button 0 from the top of its absolute position. Right: 20px sets it 20px right of its absolute position (relative to menu ancestor object).
+  The font size and border are set as "important" to override conflicting CSS.
+*/ 
+
+.button {
+    background: rgba(0, 0, 0, .8);
+    height: 100%;
+    width: 28px;
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+/*Above is the code for the "button" on the far left side of the viewport window that, upon clicking, allows the user to open the clickable menu. The background color is set to a dark, slightly see-through color. The height is set to fill the window height. The width of the "button" is only 28px. The z-index ensures it is visible and "above" the rest of the content. The position fixes the button to its position. The left and top properties set to 0 put the button all the way to the left and set it to the "top" of the screen. The cursor property makes it so that the cursor will change to a pointing hand indicating to the user that this is in fact a clickable button.*/
+
+.vertical-text {
+    position: absolute;
+    top: 45%;
+    writing-mode: vertical-lr;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+/* The position: absolute property value pair causes the text to be relative to its containing block, which is, in this case, its span (within a div). The top 45% PV pair causes the text to start 45% down the screen. The writing mode makes the text appear vertically from left to right.*/
+
+/*#endregion*/
+
+/*#endregion Class page*/
+
+/*#region Teams Page*/
+
+.teamText {
+    display: inline-block;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 2em;
+    border-right: 3px solid black;
+}
+
+.teamTextBox {
+    padding: 3.5em;
+}
+
+.teamImages {
+    float: left;
+    clear: both;
+    display: block;
+    padding: 1em;
+    border-radius: 50%;
+    width: 180px;
+    height: 200px;
+}
+
+#TeamsRightColumn {
+    width: 25%;
+    float: right;
+    display: block;
+    position: sticky;
+}
+
+a.nav2style {
+    color: black;
+    font-weight: 500;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#TeamsRightColumn h3 {
+    padding-bottom: .5em;
+}
+
+/*#region Lightbox*/
+.thumb {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed; /*fixed position means you are moving element in relation to the entire viewport*/
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding-top: 65px;
+    display: none;
+}
+
+#lightbox-container p {
+    color: #fff;
+}
+
+#lightbox-content img {
+    border: 10px solid grey;
+    margin: auto;
+    width: 24%;
+    height: 24%;
+}
+
+
+    /*#endregion*/
+    /*#region Special Teams Nav*/
+    .nav2 {
+    text-align: center;
+    list-style: none;
+    display: block;
+}
+
+.nav2 li:hover {
+    background-color: antiquewhite;
+}
+
+.nav2 a:hover, nav a:active, nav a:focus {
+    text-decoration: none;
+}
+
+.nav2 li {
+    padding: 1em;
+    display: block;
+    position: relative;
+}
+
+    .nav2 a {
+        text-decoration: none;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+ul.nav2 li a.active {
+    padding: .75em;
+    background-color: antiquewhite;
+}
+
+/*#endregion*/
+
+/*#endregion*/
+
+/*#region Contact Page*/
+
+p.contact {
+    width: 30%;
+    margin-left: 34%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-bottom: solid;
+    border-bottom-width: thin;
+    border-left: solid;
+    border-left-width: medium;
+    border-top: solid;
+    border-top-width: thin;
+    font-weight: 600;
+}
+
+section .contactUs {
+    text-align: center;
+    padding-right: 2.5em;
+    font-size: 3em;
+}
+
+section.contact p.contact {
+    background-color: antiquewhite;
+    opacity: .8;
+}
+
+h1.contactUs {
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+section.contact {
+    margin-bottom: 2em;
+}
+
+/*#endregion Contact Page*/
