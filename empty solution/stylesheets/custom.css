@@ -261,8 +261,12 @@ article.rightFloat p {
 /*#region Class page*/
 
 .classPic {
-    max-width: 300px;
+    width: 300px;
     max-height: 300px;
+}
+
+.classTitle {
+    color: antiquewhite;
 }
 
 .classList ul {
@@ -445,10 +449,18 @@ div a.close-btn {
     box-sizing: border-box;
     padding: 2em;
     border-right: 3px solid black;
+    color: black;
+    font-weight: 600;
+}
+
+.teamTextTitles {
+    color: antiquewhite;
+    padding-top: 1.5em;
 }
 
 .teamTextBox {
-    padding: 3.5em;
+    padding: 1.5em;
+    margin-bottom: 2em;
 }
 
 .teamImages {

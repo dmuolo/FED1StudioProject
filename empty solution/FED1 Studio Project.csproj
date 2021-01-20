@@ -84,6 +84,7 @@
     <Content Include="images\banner.jpg" />
     <Content Include="images\Blues.png" />
     <Content Include="images\Classical.jpg" />
+    <Content Include="images\classical.png" />
     <Content Include="images\concert-3084876_1920.jpg" />
     <Content Include="images\concert-984237_1920.jpg" />
     <Content Include="images\fieldbg.png" />
@@ -97,9 +98,12 @@
     <Content Include="images\lead2.jpg" />
     <Content Include="images\lead3.jpg" />
     <Content Include="images\Metal.jpg" />
+    <Content Include="images\metal.png" />
     <Content Include="images\pexels-markus-spiske-92080.jpg" />
+    <Content Include="images\pop.jpeg" />
     <Content Include="images\Pop.jpg" />
     <Content Include="images\Rock.jpg" />
+    <Content Include="images\rock.png" />
     <Content Include="images\sales1.jpg" />
     <Content Include="images\sales2.jpg" />
     <Content Include="images\sales3.jpg" />
